@@ -1,2 +1,2 @@
-# infiniteScroll
-app getting new post(random images) during the scroll
+# InfiniteScroll
+App fetching new posts(random images) during the scroll - kind of social media like instagram works.
