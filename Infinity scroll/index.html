@@ -8,14 +8,18 @@
     <title>Infinite Scroll</title>
 </head>
 <body>
-    <div class="container">
+    <div class="liked-status"><p>Liked posts</p></div>
+    <div class="remove-all-likes disabled"><p>Clear liked posts</p></div>
+    <header>
         <h1>Infinite scroll</h1>
+    </header>
+    <div class="container">
         <div class="post">
             <div class="post-image">
                 <img src="images/loading.gif" alt="">
             </div>
             <div class="social">
-                <img src="images/likeButton.png" alt="like button">
+                <img id="like" src="images/likeButton.png" alt="like button">
                 <img src="images/commentButton.png" alt="comment button">
             </div>
             <hr>
@@ -25,7 +29,7 @@
                 <img src="images/loading.gif" alt="">
             </div>
             <div class="social">
-                <img src="images/likeButton.png" alt="like button">
+                <img id="like" src="images/likeButton.png" alt="like button">
                 <img src="images/commentButton.png" alt="comment button">
             </div>
             <hr>
@@ -35,10 +39,14 @@
                 <img src="images/loading.gif" alt="">
             </div>
             <div class="social">
-                <img src="images/likeButton.png" alt="like button">
+                <img id="like" src="images/likeButton.png" alt="like button">
                 <img src="images/commentButton.png" alt="comment button">
             </div>
             <hr>
+        </div>
+    </div>
+    <div class="liked-posts-page disabled">
+        <div class="liked-posts__images">
         </div>
     </div>
 <script src="app.js"></script>
